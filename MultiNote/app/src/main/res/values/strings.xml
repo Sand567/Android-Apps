@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Multi Note</string>
+    <string name="noteAdd">Add</string>
+    <string name="noteInfo">Info</string>
+    <string name="saveNote">Save</string>
+    <string name="fileName">MultiNotes.json</string>
+    <string name="encoding">UTF-8</string>
+    <string name="saved">Note Saved!</string>
+    <string name="update1">Last Update: </string>
+    <string name="notSaved">No Note to Save</string>
+    <string name="appName">Multi-Note</string>
+    <string name="appPerson">Copyright &#169; 2017, Sandeep N</string>
+    <string name="appVersion">Version 1.0</string>
+    <string name="untitled">Un-titled Activity cannot be Saved!</string>
+    <string name="titleHint">Title</string>
+    <string name="noteHint">Notes..</string>
+    <string name="delete">Are you sure you want to delete?</string>
+    <string name="dialogTitle">Delete Note</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="doSave">Do you want to Save ?</string>
+    <string name="backTitle">Save Note</string>
+    <string name="saveTheNotes">Save</string>
+    <string name="complete">Wait for Async Task to complete</string>
+    <string name="taskDone">Async Task Complete</string>
+</resources>

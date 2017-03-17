@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Temperature Converter</string>
+    <string name="rb1">Fah to Cel</string>
+    <string name="rb2">Cel to Fah</string>
+    <string name="button1">Convert</string>
+    <string name="textView2">Conversion</string>
+    <string name="textView3">=</string>
+    <string name="inputText">input</string>
+    <string name="outputText">output</string>
+    <string name="textHistory">HISTORY</string>
+</resources>

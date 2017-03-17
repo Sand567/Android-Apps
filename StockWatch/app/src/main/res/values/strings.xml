@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Stock Watch</string>
+    <string name="selection">Stock Selection</string>
+    <string name="selectionMessage">Please Enter a Stock Symbol</string>
+    <string name="positiveSelection">OK</string>
+    <string name="negativeSelection">CANCEL</string>
+    <string name="deleteText">Delete Stock</string>
+    <string name="deleteMessage">Delete Stock Symbol</string>
+    <string name="deletePositive">DELETE</string>
+    <string name="deleteNegative">CANCEL</string>
+    <string name="noConnection">No Network Connection</string>
+    <string name="noConnectionMessage">Stocks Cannot Be Added or Updated Without A Network Connection</string>
+    <string name="noStockTitle">Symbol Not Found</string>
+    <string name="noStockMessage">No such Stock Symbol</string>
+    <string name="multipleSelection">Make a selection</string>
+    <string name="cancelMultipleSelection">CANCEL</string>
+    <string name="notFoundForStock">Not Found</string>
+    <string name="noDataFoundForStockMessage">No data found for the stock</string>
+    <string name="duplicateTitle">Duplicate Stock</string>
+    <string name="duplicateMessage">Cannot add duplicate stock!</string>
+    <string name="noDataForSelectedStockTitle">No Data found</string>
+    <string name="noDataForSelectedStockMessage">No data for the selected stock</string>
+</resources>

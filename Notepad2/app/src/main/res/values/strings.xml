@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Notepad</string>
+    <string name="fileName">QuickNotes.json</string>
+    <string name="encoding">UTF-8</string>
+    <string name="saved">Note Saved</string>
+    <string name="notSaved">No File To Save</string>
+    <string name="update1">Last Update: %1$s</string>
+    <string name="noteHint">Notes..</string>
+</resources>
