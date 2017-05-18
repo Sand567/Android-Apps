@@ -1,5 +1,4 @@
 # Android-Apps
-Android Applications
 
 Temperature Converter - A simple app to convert temperature based on the radio button checked. Either Celsius to Fahrenheit or Fahrenheit to Celsius
 
