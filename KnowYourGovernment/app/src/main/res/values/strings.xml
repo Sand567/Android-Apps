@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Know Your Government</string>
+    <string name="zip">Enter a City, State or a Zip Code</string>
+    <string name="OK">OK</string>
+    <string name="CANCEL">Cancel</string>
+    <string name="title">Know Your Government</string>
+    <string name="name_about">Copyright &#169; 2017, Sandeep N</string>
+    <string name="version">Version 1.0</string>
+    <string name="Nothing">Nothing</string>
+    <string name="notRetrieved">Address cannot be retrieved from the provided </string>
+    <string name="googlePlus">Google Plus</string>
+    <string name="twitter">Twitter</string>
+    <string name="facebook">Facebook</string>
+    <string name="youTube">YouTube</string>
+    <string name="imageOfOfficial">Official\'s Image</string>
+    <string name="noDataForLocation">No Data For Location</string>
+    <string name="noDataProvided">No Data Provided</string>
+    <string name="Address">Address: </string>
+    <string name="Phone">Phone: </string>
+    <string name="Email">Email: </string>
+    <string name="WebAddress">Website: </string>
+    <string name="noLocationFound">No Location Found</string>
+    <string name="fileName1">OfficialNotes.json</string>
+    <string name="encoding">UTF-8</string>
+    <string name="noConnection">No Network Connection</string>
+    <string name="noConnectionMessage">Data cannot be accessed/loaded without an internet connection</string>
+</resources>

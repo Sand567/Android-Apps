@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">News Gateway</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="stringEmpty">String is Empty</string>
+    <string name="stringNull">String is null</string>
+    <string name="newsImage">News Image</string>
+    <string name="noConnection">No Network Connection</string>
+    <string name="noConnectionMessage">Data cannot be accessed/loaded without an internet connection</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
