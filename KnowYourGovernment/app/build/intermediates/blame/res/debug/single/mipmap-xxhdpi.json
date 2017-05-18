@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "N:\\Android\\KnowYourGovernment\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher_new.png",
+        "source": "N:\\Android\\KnowYourGovernment\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_new.png"
+    },
+    {
+        "merged": "N:\\Android\\KnowYourGovernment\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher_round.png",
+        "source": "N:\\Android\\KnowYourGovernment\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "N:\\Android\\KnowYourGovernment\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "N:\\Android\\KnowYourGovernment\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    }
+]

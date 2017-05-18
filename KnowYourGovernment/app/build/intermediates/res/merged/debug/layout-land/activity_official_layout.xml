@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/cLayout">
+
+    <TextView
+        android:id="@+id/locationText2"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="572dp"
+        android:layout_height="260dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:scrollbars="vertical"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/locationText2"
+        app:layout_constraintVertical_bias="0.454">
+
+        <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="73dp">
+
+            <TextView
+                android:id="@+id/officeName"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="16dp"
+                android:gravity="center_horizontal"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:id="@+id/officialName"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center_horizontal"
+                android:textColor="@color/white"
+                android:textSize="21sp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/officeName" />
+
+            <TextView
+                android:id="@+id/officialParty"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="71dp"
+                android:layout_marginRight="71dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center_horizontal"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/officeName" />
+
+            <ImageView
+                android:id="@+id/officialImage"
+                android:onClick="imageClick"
+                android:layout_width="129dp"
+                android:layout_height="114dp"
+                android:layout_marginEnd="42dp"
+                android:layout_marginRight="42dp"
+                android:contentDescription="@string/imageOfOfficial"
+                app:layout_constraintRight_toRightOf="parent"
+                app:srcCompat="@drawable/missingimage"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/officialParty" />
+
+            <TextView
+                android:id="@+id/addressLine"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:gravity="start|center"
+                android:text="@string/Address"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/officialName" />
+
+            <TextView
+                android:id="@+id/officialAddress"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="70dp"
+                android:layout_marginRight="70dp"
+                android:layout_marginTop="8dp"
+                android:gravity="start|center"
+                android:textColor="@color/white"
+                android:textColorLink="@color/white"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintRight_toLeftOf="@+id/officialImage"
+                app:layout_constraintTop_toBottomOf="@+id/officialName" />
+
+            <TextView
+                android:id="@+id/phoneNum"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:gravity="start|center"
+                android:text="@string/Phone"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/officialAddress" />
+
+            <TextView
+                android:id="@+id/emailAddress"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:gravity="start|center"
+                android:text="@string/Email"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/officialPhone" />
+
+            <TextView
+                android:id="@+id/officialPhone"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="70dp"
+                android:layout_marginRight="70dp"
+                android:layout_marginTop="8dp"
+                android:gravity="start|center"
+                android:textColor="@color/white"
+                android:textColorLink="@color/white"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintRight_toLeftOf="@+id/officialImage"
+                app:layout_constraintTop_toBottomOf="@+id/officialAddress" />
+
+            <TextView
+                android:id="@+id/officialEmail"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="70dp"
+                android:layout_marginRight="70dp"
+                android:layout_marginTop="8dp"
+                android:gravity="start|center"
+                android:textColor="@color/white"
+                android:textColorLink="@color/white"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintRight_toLeftOf="@+id/officialImage"
+                app:layout_constraintTop_toBottomOf="@+id/officialPhone" />
+
+            <ImageView
+                android:id="@+id/linkYoutube"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/youTube"
+                android:onClick="youTubeClicked"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/officialWebsite"
+                app:srcCompat="@drawable/youtube" />
+
+            <ImageView
+                android:id="@+id/linkTwitter"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="85dp"
+                android:layout_marginRight="85dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/twitter"
+                android:onClick="twitterClicked"
+                app:layout_constraintRight_toLeftOf="@+id/linkFacebook"
+                app:layout_constraintTop_toBottomOf="@+id/officialWebsite"
+                app:srcCompat="@drawable/twitter" />
+
+            <ImageView
+                android:id="@+id/linkFacebook"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="60dp"
+                android:layout_marginRight="60dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/facebook"
+                android:onClick="facebookClicked"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/officialWebsite"
+                app:srcCompat="@drawable/facebook" />
+
+            <TextView
+                android:id="@+id/websiteAddress"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:gravity="start|center"
+                android:text="@string/WebAddress"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/officialEmail" />
+
+            <ImageView
+                android:id="@+id/linkGoogleplus"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/googlePlus"
+                android:onClick="googlePlusClicked"
+                app:layout_constraintHorizontal_bias="0.507"
+                app:layout_constraintLeft_toRightOf="@+id/linkYoutube"
+                app:layout_constraintRight_toLeftOf="@+id/linkTwitter"
+                app:layout_constraintTop_toBottomOf="@+id/officialWebsite"
+                app:srcCompat="@drawable/googleplus"
+                android:layout_marginStart="60dp"
+                android:layout_marginEnd="60dp" />
+
+            <TextView
+                android:id="@+id/officialWebsite"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="70dp"
+                android:layout_marginRight="70dp"
+                android:layout_marginTop="8dp"
+                android:gravity="start|center"
+                android:textColor="@color/white"
+                android:textColorLink="@color/white"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintRight_toLeftOf="@+id/officialImage"
+                app:layout_constraintTop_toBottomOf="@+id/officialEmail" />
+
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

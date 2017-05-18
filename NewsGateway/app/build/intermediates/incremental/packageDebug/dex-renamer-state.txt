@@ -1,0 +1,7 @@
+#Sat May 06 15:34:06 CDT 2017
+base.0=N\:\\Android\\NewsGateway\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_a3104f3c3e46f7478936a6312defb51ec8046487
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=N\:\\Android\\NewsGateway\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_840aca9ba19a7e14f497298b45fc6197629cdb4c\\classes.dex
+base.1=N\:\\Android\\NewsGateway\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_840aca9ba19a7e14f497298b45fc6197629cdb4c
+file.0=N\:\\Android\\NewsGateway\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_a3104f3c3e46f7478936a6312defb51ec8046487\\classes.dex

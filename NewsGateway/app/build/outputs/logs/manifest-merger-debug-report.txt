@@ -1,0 +1,107 @@
+-- Merging decision tree log ---
+manifest
+ADDED from N:\Android\NewsGateway\app\src\main\AndroidManifest.xml:2:1-32:12
+	package
+		ADDED from N:\Android\NewsGateway\app\src\main\AndroidManifest.xml:3:5-38
+		INJECTED from N:\Android\NewsGateway\app\src\main\AndroidManifest.xml
+		INJECTED from N:\Android\NewsGateway\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from N:\Android\NewsGateway\app\src\main\AndroidManifest.xml
+		INJECTED from N:\Android\NewsGateway\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from N:\Android\NewsGateway\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from N:\Android\NewsGateway\app\src\main\AndroidManifest.xml
+		INJECTED from N:\Android\NewsGateway\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from N:\Android\NewsGateway\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from N:\Android\NewsGateway\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from N:\Android\NewsGateway\app\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from N:\Android\NewsGateway\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from N:\Android\NewsGateway\app\src\main\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from N:\Android\NewsGateway\app\src\main\AndroidManifest.xml:7:22-76
+application
+ADDED from N:\Android\NewsGateway\app\src\main\AndroidManifest.xml:9:5-30:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Sandeep\.android\build-cache\3ac5d88558fad05728f3a193c87952988d5a5583\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Sandeep\.android\build-cache\4fd020374f5dae84cc6b71bd1d91311de4a8c892\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Sandeep\.android\build-cache\3f1d3553b3fe83f8c9173600008b37a1f47f566f\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Sandeep\.android\build-cache\93c3885053f120afc88d0eb9d32efbdf8c6570b2\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Sandeep\.android\build-cache\b913fcf0df06a03bf4b1b5d326e625f8180a180b\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Sandeep\.android\build-cache\4438287a597c4a4933b1fd5ee77123d277a93d0a\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Sandeep\.android\build-cache\91ce01cc3562fcc073b8ad3386237a5982b247c4\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Sandeep\.android\build-cache\857ff92abab53b3fe9730acab0c3c31ebcc1db55\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Sandeep\.android\build-cache\e4d6404274766307afe70ec4857e5dda9d8f292a\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Sandeep\.android\build-cache\86bd84171b2d86ef6b44d17fba91ad0f066e41e9\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from N:\Android\NewsGateway\app\src\main\AndroidManifest.xml:12:9-41
+	android:supportsRtl
+		ADDED from N:\Android\NewsGateway\app\src\main\AndroidManifest.xml:14:9-35
+	android:roundIcon
+		ADDED from N:\Android\NewsGateway\app\src\main\AndroidManifest.xml:13:9-46
+	android:allowBackup
+		ADDED from N:\Android\NewsGateway\app\src\main\AndroidManifest.xml:10:9-35
+	android:icon
+		ADDED from N:\Android\NewsGateway\app\src\main\AndroidManifest.xml:11:9-41
+	android:theme
+		ADDED from N:\Android\NewsGateway\app\src\main\AndroidManifest.xml:15:9-40
+activity#com.sandeep.newsgateway.MainActivity
+ADDED from N:\Android\NewsGateway\app\src\main\AndroidManifest.xml:16:9-22:20
+	android:name
+		ADDED from N:\Android\NewsGateway\app\src\main\AndroidManifest.xml:16:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from N:\Android\NewsGateway\app\src\main\AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from N:\Android\NewsGateway\app\src\main\AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from N:\Android\NewsGateway\app\src\main\AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from N:\Android\NewsGateway\app\src\main\AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from N:\Android\NewsGateway\app\src\main\AndroidManifest.xml:20:27-74
+service#com.sandeep.newsgateway.NewsService
+ADDED from N:\Android\NewsGateway\app\src\main\AndroidManifest.xml:24:9-29:19
+	android:enabled
+		ADDED from N:\Android\NewsGateway\app\src\main\AndroidManifest.xml:26:13-35
+	android:exported
+		ADDED from N:\Android\NewsGateway\app\src\main\AndroidManifest.xml:27:13-36
+	android:name
+		ADDED from N:\Android\NewsGateway\app\src\main\AndroidManifest.xml:25:13-40
+uses-sdk
+INJECTED from N:\Android\NewsGateway\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Sandeep\.android\build-cache\3ac5d88558fad05728f3a193c87952988d5a5583\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Sandeep\.android\build-cache\4fd020374f5dae84cc6b71bd1d91311de4a8c892\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Sandeep\.android\build-cache\3f1d3553b3fe83f8c9173600008b37a1f47f566f\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Sandeep\.android\build-cache\93c3885053f120afc88d0eb9d32efbdf8c6570b2\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Sandeep\.android\build-cache\b913fcf0df06a03bf4b1b5d326e625f8180a180b\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Sandeep\.android\build-cache\4438287a597c4a4933b1fd5ee77123d277a93d0a\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Sandeep\.android\build-cache\91ce01cc3562fcc073b8ad3386237a5982b247c4\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Sandeep\.android\build-cache\857ff92abab53b3fe9730acab0c3c31ebcc1db55\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Sandeep\.android\build-cache\e4d6404274766307afe70ec4857e5dda9d8f292a\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Sandeep\.android\build-cache\86bd84171b2d86ef6b44d17fba91ad0f066e41e9\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Sandeep\.android\build-cache\3ac5d88558fad05728f3a193c87952988d5a5583\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from N:\Android\NewsGateway\app\src\main\AndroidManifest.xml
+		INJECTED from N:\Android\NewsGateway\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from N:\Android\NewsGateway\app\src\main\AndroidManifest.xml
+		INJECTED from N:\Android\NewsGateway\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Sandeep\.android\build-cache\3ac5d88558fad05728f3a193c87952988d5a5583\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Sandeep\.android\build-cache\4fd020374f5dae84cc6b71bd1d91311de4a8c892\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Sandeep\.android\build-cache\3f1d3553b3fe83f8c9173600008b37a1f47f566f\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Sandeep\.android\build-cache\b913fcf0df06a03bf4b1b5d326e625f8180a180b\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Sandeep\.android\build-cache\4438287a597c4a4933b1fd5ee77123d277a93d0a\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Sandeep\.android\build-cache\91ce01cc3562fcc073b8ad3386237a5982b247c4\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Sandeep\.android\build-cache\857ff92abab53b3fe9730acab0c3c31ebcc1db55\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Sandeep\.android\build-cache\e4d6404274766307afe70ec4857e5dda9d8f292a\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Sandeep\.android\build-cache\86bd84171b2d86ef6b44d17fba91ad0f066e41e9\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Sandeep\.android\build-cache\3ac5d88558fad05728f3a193c87952988d5a5583\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Sandeep\.android\build-cache\3ac5d88558fad05728f3a193c87952988d5a5583\output\AndroidManifest.xml:26:9-47

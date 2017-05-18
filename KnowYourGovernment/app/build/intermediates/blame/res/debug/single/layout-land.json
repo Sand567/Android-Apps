@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "N:\\Android\\KnowYourGovernment\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_main.xml",
+        "source": "N:\\Android\\KnowYourGovernment\\app\\src\\main\\res\\layout-land\\activity_main.xml"
+    },
+    {
+        "merged": "N:\\Android\\KnowYourGovernment\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\photo_layout.xml",
+        "source": "N:\\Android\\KnowYourGovernment\\app\\src\\main\\res\\layout-land\\photo_layout.xml"
+    },
+    {
+        "merged": "N:\\Android\\KnowYourGovernment\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_official_layout.xml",
+        "source": "N:\\Android\\KnowYourGovernment\\app\\src\\main\\res\\layout-land\\activity_official_layout.xml"
+    }
+]

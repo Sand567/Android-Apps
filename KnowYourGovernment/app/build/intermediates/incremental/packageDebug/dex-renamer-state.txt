@@ -1,0 +1,7 @@
+#Sun Apr 23 14:59:16 CDT 2017
+base.0=N\:\\Android\\KnowYourGovernment\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_2f5e01677dac960244f2a1d12969276104502de1
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=N\:\\Android\\KnowYourGovernment\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_5b9a9504d9520556d8118a74185278062eebf430\\classes.dex
+base.1=N\:\\Android\\KnowYourGovernment\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_5b9a9504d9520556d8118a74185278062eebf430
+file.0=N\:\\Android\\KnowYourGovernment\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_2f5e01677dac960244f2a1d12969276104502de1\\classes.dex
